@@ -57,7 +57,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <ul className="flex mt-20 gap-10 text-orange-700 text-lg justify-center md:mr-40 mr-0 items-center">
+      <ul className="flex mt-20 gap-10 text-orange-700 text-lg justify-center  items-center">
         <li className="hover:border-b hover:border-orange-700 ">Terms</li>
         <li className="hover:border-b hover:border-orange-700 ">Contact</li>
         <li className="hover:border-b hover:border-orange-700 ">FAQ</li>
