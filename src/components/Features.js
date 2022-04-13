@@ -27,7 +27,7 @@ const Features = () => {
                 <MdSecurity className="md:text-4xl text-3xl  " />
                 <p className="font-bold">Security</p>
               </div>
-              <p className="md:ml-14 ml-12 mt-2 md:w-[400px] w-[500px]  text-lg">
+              <p className="md:ml-14 ml-12 mt-2 md:w-[400px]   text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
                 facilis autem cupiditate tempore.
               </p>
@@ -37,7 +37,7 @@ const Features = () => {
                 <MdOutlinePrivacyTip className="md:text-4xl text-3xl" />
                 <p className="font-bold">Privacy</p>
               </div>
-              <p className="md:ml-14 ml-12 mt-2 md:w-[400px] w-[500px] text-lg">
+              <p className="md:ml-14 ml-12 mt-2 md:w-[400px]  text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
                 facilis autem cupiditate tempore.
               </p>
@@ -47,7 +47,7 @@ const Features = () => {
                 <MdMobileFriendly className="md:text-4xl text-3xl" />
                 <p className="font-bold">User Friendly</p>
               </div>
-              <p className="md:ml-14 ml-12 mt-2 md:w-[400px] w-[500px] text-lg">
+              <p className="md:ml-14 ml-12 mt-2 md:w-[400px]  text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
                 facilis autem cupiditate tempore.
               </p>
@@ -56,9 +56,9 @@ const Features = () => {
         </div>
       </div>
       <ul className="flex mt-20 gap-10 text-orange-700 text-lg justify-center  items-center">
-        <li className=" ">Terms</li>
-        <li className="hover:border-b hover:border-orange-700 ">Contact</li>
-        <li className="hover:border-b hover:border-orange-700 ">FAQ</li>
+        <li className=" link">Terms</li>
+        <li className="link">Contact</li>
+        <li className="link ">FAQ</li>
       </ul>
     </div>
   );
