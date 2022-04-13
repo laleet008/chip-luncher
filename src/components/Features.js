@@ -25,7 +25,7 @@ const Features = () => {
           </span>
           <div className="mt-8 text-[#d35050] feature_text">
             <div className="  ">
-              <div className="flex gap-4 uppercase text-3xl items-center ">
+              <div className="flex gap-4 uppercase text-2xl items-center ">
                 <MdSecurity className="text-4xl  " />
                 <p className="font-bold">Security</p>
               </div>
@@ -35,7 +35,7 @@ const Features = () => {
               </p>
             </div>
             <div className="mt-4  ">
-              <div className="flex gap-4 uppercase text-3xl items-center ">
+              <div className="flex gap-4 uppercase text-2xl items-center ">
                 <MdOutlinePrivacyTip className="text-4xl" />
                 <p className="font-bold">Privacy</p>
               </div>
@@ -45,7 +45,7 @@ const Features = () => {
               </p>
             </div>
             <div className="mt-4  ">
-              <div className="flex gap-4 uppercase text-3xl items-center ">
+              <div className="flex gap-4 uppercase text-2xl items-center ">
                 <MdMobileFriendly className="text-4xl" />
                 <p className="font-bold">User Friendly</p>
               </div>
