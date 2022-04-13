@@ -12,7 +12,7 @@ const Hero = () => {
             </span>
           </p>
 
-          <p className="md:w-[550px] w-[300px] mt-8 ml-12 text-lg text-[#503935]">
+          <p className="md:w-[550px] w-[300px] mt-8  text-lg text-[#503935]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
             eveniet quis beatae fuga, dolores voluptas velit natus consequatur
             nulla id reprehenderit exercitationem blanditiis consequuntur quo
