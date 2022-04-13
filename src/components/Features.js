@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <div className=" py-14 feature-section">
       <div className="flex md:flex-row flex-col gap-20  md:mx-40  mx-16">
-        <div className="rotate-[-12deg]  w-2/6 mr-32 hover:z-100 py-2">
+        <div className="rotate-[-12deg]  ml-14 w-2/6 mr-32 hover:z-100 py-2">
           <img
             src="assets/features.png"
             className="h-[550px] hover:shadow-4xl md:shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300	"

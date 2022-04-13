@@ -3,14 +3,14 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="  md:mx-40 mx-16 md:py-12 pb-20 flex md:flex-row flex-col justify-between">
+      <div className=" md:mx-40 mx-16 md:py-12 pb-20 flex md:flex-row flex-col justify-between">
         <div className="py-12">
           <p className="font-bold mt-4  chip text-4xl text-[#E2614B]  ">
             Chips
+            <span className="luncher ml-2 text-[#E2614B] text-4xl">
+              Lunchers
+            </span>
           </p>
-          <span className="luncher  ml-24 text-[#E2614B] text-6xl">
-            Luncher
-          </span>
 
           <p className="md:w-[550px] w-[300px] mt-8 ml-12 text-lg text-[#503935]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative mr-12">
           <div className="  mr-32 hover:z-100 py-2">
             <img
               src="assets/hero-img.png"
