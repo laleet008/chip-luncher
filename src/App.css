@@ -28,3 +28,21 @@ body {
 .feature_text {
   font-family: "Roboto", sans-serif;
 }
+
+@media only screen and (max-width: 1300px) {
+  .hero_image2 {
+    transform: rotate(0deg);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero_image2 {
+    transform: rotate(0deg);
+    display: hidden;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .feature_img {
+    width: 100%;
+  }
+}

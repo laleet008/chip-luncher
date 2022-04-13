@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="bg-[#FDF3F2]">
-      <div className="md:mx-36 flex items-center justify-between mx-16">
+      <div className="md:mx-36 flex items-center justify-between mx-12">
         {/* <Link to="/"> */}
         <img src="assets/app-logo.png" className="h-24 w-24" alt="app logo" />
         {/* </Link> */}
