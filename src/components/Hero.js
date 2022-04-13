@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="md:mx-40 mx-10 md:py-12 pb-20 flex md:flex-row flex-col justify-between">
+    <div className="bg-[#FDF3F2]">
+      <div className="md:mx-40   mx-10 md:py-12 pb-20 flex md:flex-row flex-col justify-between">
         <div className="py-12">
           <p className="font-bold mt-4  chip text-4xl text-[#E2614B]  ">
             Chips

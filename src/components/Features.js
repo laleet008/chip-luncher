@@ -4,10 +4,11 @@ import {
   MdOutlinePrivacyTip,
   MdMobileFriendly,
 } from "react-icons/md";
+import Footer from "./Footer";
 
 const Features = () => {
   return (
-    <div className=" py-14 feature-section">
+    <div className=" py-14 feature-section bg-[#FDF3F2]">
       <div className="flex md:flex-row flex-col-reverse gap-20  md:mx-40  mx-10">
         <div className="md:rotate-[-12deg]  md:block hidden	 md:mx-0  rotate:0  md:ml-14  w-2/6 md:mr-32 mr-0  py-2">
           <img
@@ -55,11 +56,9 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <ul className="flex mt-20 gap-10 text-orange-700 text-lg justify-center  items-center">
-        <li className=" link">Terms</li>
-        <li className="link">Contact</li>
-        <li className="link ">FAQ</li>
-      </ul>
+      <div className="mt-20">
+        <Footer />
+      </div>
     </div>
   );
 };
