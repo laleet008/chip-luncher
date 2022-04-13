@@ -50,6 +50,7 @@ body {
 .link {
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 .link:after {

@@ -9,8 +9,8 @@ const Header = () => {
         <img src="assets/app-logo.png" className="h-24 w-24" alt="app logo" />
         {/* </Link> */}
         <ul className=" flex text-lg font-semibold gap-10 text-orange-700 text-l mr-0 items-center">
-          <li className="link cursor-pointer ">Terms</li>
-          <li className="link cursor-pointer ">Privacy Policy</li>
+          <li className="link  ">Terms</li>
+          <li className="link r ">Privacy Policy</li>
         </ul>
       </div>
     </div>
